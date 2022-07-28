@@ -492,7 +492,7 @@ export async function handler(chatUpdate) {
                 m.isCommand = true
                 let xp = 'exp' in plugin ? parseInt(plugin.exp) : 17 // XP Earning per command
                 if (xp > 200)
-                    m.reply('Ngecit -_-') // Hehehe
+                    m.reply('Ngecit -_-') // Hahaha
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
@@ -614,7 +614,7 @@ export async function handler(chatUpdate) {
         if (opts['autoread'])
             await this.readMessages([m.key])
         
-        if (!m.fromMem && m.text.match(/(Bruno Sobrino|@5219996125657|bot|mystic|the mystic - bot|mystic - bot|themystic-bot)/gi)) {
+        if (!m.fromMem && m.text.match(/(Dios SupremoN9|@528441840468|bot|mystic|the mystic - bot|mystic - bot|themystic-bot)/gi)) {
         let emot = pickRandom(["🎃", "❤", "😘", "😍", "💕", "😎", "🙌", "⭐", "👻", "🔥"])
         this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
         function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
