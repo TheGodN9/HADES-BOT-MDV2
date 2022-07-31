@@ -89,13 +89,13 @@ global.youtube = yt
 global.ig = 'https://www.instagram'
 global.hadesig = ig
 
-global.md = 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git'
+global.md = 'https://github.com/TheGodN9/SupremoN9-Bot.git'
 global.hadesbot = md
 
-global.nn = 'https://chat.whatsapp.com/CG5ZPcJ22fL7QjNRzjguD0'
+global.nn = 'https://chat.whatsapp.com/JjRXAO5alCV0etoclpkk8E'
 global.nngrupo = nn
 
-global.nnn = 'https://chat.whatsapp.com/DDm7HC6e5MF9qcdLqB22RQ'
+global.nnn = 'https://chat.whatsapp.com/JjRXAO5alCV0etoclpkk8E'
 global.nnngrupo = nnn
 
 global.paypal = 'https://pay'
