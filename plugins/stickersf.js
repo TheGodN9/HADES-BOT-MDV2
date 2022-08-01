@@ -6,7 +6,7 @@ import { join } from 'path'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
 try {
 let vn = './media/ja.mp3'
-let pp = 'https://i.imgur.com/S7KE0Ij.jpeg'
+let pp = 'https://i.imgur.com/lkch77g.jpeg'
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
 let { exp, limit, level, role } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
@@ -75,8 +75,9 @@ let str = `
 ├❏🏝️${usedPrefix}kiss <@tag
 ├❏🪅${usedPrefix}dado
 ├❏🧧${usedPrefix}wm <packname> <author
-├❏🪩${usedPrefix}stickermarker <efecto> <responder a imagen
-├❏🌃${usedPrefix}stickerfilter <efecto> <responder a imagen
+├❏🪩${usedPrefix}stickermarker <efecto <responder a imagen
+├❏🌃${usedPrefix}stickerfilter <efecto <responder a imagen
+├❏🏝️${usedPrefix}searchsticker links
 └────ׂ─ׂ─ׂ─ׂ───
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [

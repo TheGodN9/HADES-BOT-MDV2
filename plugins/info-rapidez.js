@@ -5,13 +5,19 @@ let handler = async m => {
  let txt = `${eg}*_COMENZANDO PRUEBA DE VELOCIDAD..._*\n*_STARTING SPEED TEST..._*`.trim()
   m.reply(txt)
 
-await m.reply('🚀')
-await m.reply('🚀🚀')
-await m.reply('🚀🚀🚀')
+await m.reply('1')
+await m.reply('10')
+await m.reply('20')
+await m.reply('50')
+await m.reply('60')
+await m.reply('75')
+await m.reply('85')
+await m.reply('95')
+await m.reply('100')
 await m.reply(`╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮`)
  
 let veloz = 
-`🚄 *VELOCIDAD:*\n *${speed}* *Milisegundos*\n\n🚄 *SPEED:*\n *${speed}* *Milliseconds*`
+`💎VELOCIDAD:*\n *${speed}* *Milisegundos*\n\n💎*SPEED:*\n *${speed}* *Milliseconds*`
 
  const templateButtonsReplyMessage = [
 {index: 1, urlButton: {displayText: '𝙲𝙰𝙽𝙰𝙻 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴', url: 'https://youtu.be/dfc4akKNn6A'}},

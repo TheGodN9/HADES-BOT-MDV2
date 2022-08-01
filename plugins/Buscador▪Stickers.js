@@ -7,6 +7,7 @@ if (!text) throw `*⚠️ Ingrese el nombre del paquete de stickers que desea bu
 
 let json = await fetch(`https://api.zacros.my.id/search/sticker?query=${text}`)
 let jsons = await json.json()
+{await m.reply('⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱')}
   let res = jsons.result.map((v, index) => `*🪴 • Resultado:* ${1 + index}\n*🌵 • Nombre:* ${v.title}\n*🍂 • Url:* ${v.url}`).join`\n\n───\n\n`
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    

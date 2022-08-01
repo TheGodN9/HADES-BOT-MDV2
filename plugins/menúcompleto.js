@@ -6,7 +6,7 @@ import { join } from 'path'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
 try {
 let vn = './media/naa.mp3'
-let pp = 'https://i.imgur.com/AYfkKZB.jpeg'
+let pp = 'https://i.imgur.com/lkch77g.jpeg'
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
 let { exp, limit, level, role } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
@@ -230,7 +230,7 @@ let str = `
 ├❏🖇️${usedPrefix}simular <welcome / bye / promote / demote>
 └────ׂ─ׂ─ׂ─ׂ───
 ┌──「🧰𝐆𝐈𝐓𝐇𝐔𝐁」─
-├❏/Instalarbot
+├❏/instalarbot
 └────ׂ─ׂ─ׂ─ׂ───
 ┌──「🖼𝐈𝐌𝐀𝐆𝐄」─
 ├❏🔮${usedPrefix}xnxxsearch <texto

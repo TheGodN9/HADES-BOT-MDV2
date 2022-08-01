@@ -36,8 +36,10 @@ let _thumb = {}
 try { _thumb = { thumbnail: await (await fetch(thumbnail)).buffer() } }
 catch (e) { }
 await conn.sendFile(m.chat, link, title + '.mp4', `
-*🔥 𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
-*📁 𝙿𝙴𝚂𝙾 𝙳𝙴𝙻 𝚅𝙸𝙳𝙴𝙾:* ${video.fileSizeH}
+┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」
+├❏🔥 𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
+├❏📁 𝙿𝙴𝚂𝙾 𝙳𝙴𝙻 𝚅𝙸𝙳𝙴𝙾:* ${video.fileSizeH}
+└────ׂ
 `.trim(), m, false, {
 ..._thumb,
 asDocument: chat.useDocument
